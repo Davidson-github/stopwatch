@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+
+}
+
+
+body {
+    background: black;
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -60px;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -60px;
+    width: 340px;
+    background: white;
+    border-radius: 6px;
+    padding-left: 20px;
+    
+}
+
+.numeros {
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #c5fb01
+}
+
+#caixa-botoes {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.botoes {
+    color: black;
+    background: white;
+
+    padding: 10px 17px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-style: initial;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+
+
+.ativo{ 
+
+    opacity: 0.5;
+}
+
+
+.inativo{
+
+    opacity: 1;
+}
